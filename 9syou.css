@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  margin: 50px auto;  
+  display: flex;
+  width: 960px;
+}
+
+.common-box {
+  padding: 10px;
+  background-color: #eeeeee;
+  width: 300px;
+  position: relative;
+}
+
+.common-box:nth-child(2) {
+  margin: 0 30px;
+}
+
+.common-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.common-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.common-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-icon {
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h3 {
+  padding: 15px 0 5px 0;
+}
+
+
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px) {
+ 
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .common-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .common-box:nth-child(2) {
+    margin: 20px auto;
+  }
+  
+  
+}
+
